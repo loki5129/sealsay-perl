@@ -1,46 +1,7 @@
 # sealsay
 
-```bash
-     ------
-    <  yo  >
-     ------
-       \
-        \                             ---\/---
-         \      ------                \  || /
-          \    .  .  /\ -----------\   \   /
-           \  *     /               \  /  /
-            - (--)                   \/  /
-               \      | \               /
-                -------\ \-------------/
-                        \ |
-```
-
 A seal that lives in your terminal. Inspired by cowsay!
-
-## Install
-
-**Requires Python3**
-
-Install python from the [official website](https://www.python.org/downloads/)
-
 OR
-
-```bash
-# apt (Debian / Ubuntu)
-$ sudo apt install python
-
-# pacman (Arch)
-$ pacman -S python3
-
-# Homebrew (Linux / MacOS)
-$ brew install python
-```
-
-### AUR (Arch Linux)
-
-```bash
-yay -S sealsay
-```
 
 ### Manual
 
@@ -58,11 +19,7 @@ $ chmod +x sealsay
 
 # Linux / macOS:
 $ sudo mv sealsay /usr/local/bin/sealsay
-
-# Windows (MSYS2):
-$ mv sealsay /usr/bin/sealsay
-# Note that this program will only work through the MSYS2 terminal
-```
+$ sudo mv seals /usr/share/seals
 
 After running the mv command, it is safe to delete the remains of the repo
 
@@ -71,19 +28,4 @@ After running the mv command, it is safe to delete the remains of the repo
 Same format as cowsay:
 
 ```bash
-$ sealsay seals are the best!
-
-
-     -----------------------
-    <  seals are the best!  >
-     -----------------------
-       \
-        \                             ---\/---
-         \      ------                \  || /
-          \    .  .  /\ -----------\   \   /
-           \  *     /               \  /  /
-            - (--)                   \/  /
-               \      | \               /
-                -------\ \-------------/
-                        \ |
-```
+$ sealsay [-f sealfile] [-n] [-l] [-W wrapcolumn] [message]
