@@ -50,10 +50,10 @@ $ cd sealsay
 ```bash
 $ chmod +x sealsay
 
-**Linux / macOS:**
+# Linux / macOS:
 $ mv sealsay /usr/local/bin/sealsay
 
-**Windows (MSYS2):**
+# Windows (MSYS2):
 $ mv sealsay /usr/bin/sealsay
 ```
 
