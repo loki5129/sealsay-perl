@@ -36,6 +36,12 @@ $ pacman -S python3
 $ brew install python
 ```
 
+### AUR (Arch Linux)
+
+```bash
+yay -S sealsay
+```
+
 ### Manual
 
 1: Clone the repo:
