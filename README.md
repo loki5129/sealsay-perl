@@ -55,6 +55,7 @@ $ mv sealsay /usr/local/bin/sealsay
 
 # Windows (MSYS2):
 $ mv sealsay /usr/bin/sealsay
+# Note that this will only work through the MSYS2 terminal
 ```
 
 ## Usage
